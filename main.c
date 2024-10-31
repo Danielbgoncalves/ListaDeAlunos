@@ -76,7 +76,8 @@ int main(){
                 if(var == 1) printf("-->A lista ja esta vazia<--");
                 if(var == 2) printf("-->A lista nao existe<--");
             } else if(op == 4) {
-                printf("Qual a matricula a ser excluida ? ");                int item;
+                printf("Qual a matricula a ser excluida ? ");                
+                int item;
                 scanf("%d", &item);
                 int var = removerItem(l, item, MAX);
                 if(var == 1) printf("-->A lista ja esta vazia<--");
